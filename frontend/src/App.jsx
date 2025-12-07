@@ -1,13 +1,17 @@
+
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import AppRouter from "./routes/AppRouter";
+import "./styles.css";
 
 function App() {
   return (
     <>
       <Navbar />
-      <main style={{ padding: "1rem 2rem" }}>
+      <main>
         <AppRouter />
       </main>
+      <Footer />
     </>
   );
 }
